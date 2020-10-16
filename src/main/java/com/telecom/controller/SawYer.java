@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SawYer {
-//    @GetMapping("/hello")
+    @GetMapping("/hello")
     public String showName(){
         return "李凌云";
     }
